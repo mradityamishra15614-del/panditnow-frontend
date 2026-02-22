@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { getUser } from "../utils/auth";
 import Booking from "./Booking";
-import axios from "axios";
+import axiosInstance from "../api/axiosInstance";
 import "./Home.css";
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
   useEffect(() => {
     const fetchReviews = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/reviews");
+        const res = await axiosInstance.get("/api/reviews");
         setReviews(res.data);
       } catch (error) {
         console.error("Error fetching reviews:", error);
