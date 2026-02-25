@@ -1,3 +1,4 @@
+import ramMandir from "../assets/ram-mandir.jpg";
 import React, { useRef, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { getUser } from "../utils/auth";
@@ -42,7 +43,12 @@ function Home() {
     <div className="landing-container">
 
       {/* ================= HERO SECTION ================= */}
-      <section className="hero-section">
+      <section className="hero-section"
+      style={{
+    backgroundImage: `url(${ramMandir})`,
+  }}
+      
+      >
         <div className="hero-content">
           <h1>
             Book Verified Pandit <br />

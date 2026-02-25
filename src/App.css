@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #ffffff;
+  background: #f9f7f3;
   color: #222;
 }
 
@@ -46,30 +46,27 @@ body {
 }
 
 /* Hero Section */
-.hero {
-  text-align: center;
-  padding: 50px 20px;
-}
+/* ================= HERO SECTION ================= */
 
-.hero h1 {
-  font-size: 40px;
-  margin-bottom: 10px;
-}
 
-.hero p {
-  font-size: 18px;
-  color: gray;
-}
+
+
 
 /* Booking Box */
 .booking-box {
-  max-width: 420px;
-  margin: 30px auto;
+  max-width: 450px;
+  margin: -60px auto 50px;
   background: white;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(255, 140, 0, 0.15);
   text-align: left;
+  transition: 0.3s ease;
+}
+
+.booking-box:hover {
+  transform: translateY(-5px);
 }
 
 .booking-box h2 {
@@ -86,10 +83,19 @@ body {
 .booking-box input,
 .booking-box select {
   width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.booking-box input:focus,
+.booking-box select:focus {
+  outline: none;
+  border-color: #ff8c00;
+  box-shadow: 0 0 0 3px rgba(255, 140, 0, 0.15);
 }
 
 .book-btn {
@@ -156,4 +162,9 @@ body {
   font-size: 16px;
   border-radius: 6px;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
 }
