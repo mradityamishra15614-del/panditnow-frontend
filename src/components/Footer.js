@@ -26,7 +26,7 @@ function Footer() {
         {/* Contact Section */}
         <div>
           <h4>Contact</h4>
-          <p>Email: support@panditnow.com</p>
+          <p>Email: support@panditnow.in</p>
           <p>Phone: +91 9162579808</p>
         </div>
       </div>
