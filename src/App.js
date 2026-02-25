@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import BottomNav from "./components/BottomNav"; // ✅ Added
 
 // Pages
 import Home from "./pages/Home";
@@ -25,12 +26,13 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions";
 import CancellationPolicy from "./pages/CancellationPolicy";
 
-// Layout with Navbar + Footer
+// Layout with Navbar + Footer + BottomNav
 const Layout = ({ children }) => (
   <>
     <Navbar />
     {children}
     <Footer />
+    <BottomNav /> {/* ✅ Added here */}
   </>
 );
 
@@ -51,7 +53,7 @@ function App() {
         <Route path="/pandit/login" element={<Layout><PanditLogin /></Layout>} />
         <Route path="/pandit/dashboard" element={<Layout><PanditDashboard /></Layout>} />
 
-        {/* Customer (No Navbar/Footer) */}
+        {/* Customer (No Navbar/Footer/BottomNav) */}
         <Route path="/customer/signup" element={<CustomerSignup />} />
         <Route path="/customer/login" element={<CustomerLogin />} />
         <Route path="/customer/dashboard" element={<CustomerDashboard />} />
@@ -59,12 +61,14 @@ function App() {
         {/* Admin */}
         <Route path="/admin/login" element={<AdminLogin />} />
         <Route path="/admin/dashboard" element={<Layout><AdminDashboard /></Layout>} />
-         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-         <Route path="/terms-conditions" element={<TermsConditions />} />
-         <Route path="/cancellation-policy" element={<CancellationPolicy />} />
+
+        {/* Policies */}
+        <Route path="/privacy-policy" element={<Layout><PrivacyPolicy /></Layout>} />
+        <Route path="/terms-conditions" element={<Layout><TermsConditions /></Layout>} />
+        <Route path="/cancellation-policy" element={<Layout><CancellationPolicy /></Layout>} />
+
         {/* Fallback */}
         <Route path="*" element={<Navigate to="/" replace />} />
-        
 
       </Routes>
     </Router>

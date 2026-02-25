@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f5f5f5;
+  background: #f9f7f3;
 }
 
 /* ============================= */
@@ -70,4 +70,13 @@ body {
 
 .auth-container a:hover {
   text-decoration: underline;
+}
+/* ============================= */
+/* Bottom Nav Safe Space */
+/* ============================= */
+
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 70px;
+  }
 }

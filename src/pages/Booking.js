@@ -152,6 +152,7 @@ function Booking() {
               zoom={13}
               scrollWheelZoom={true}
               className="map-container"
+              style={{ height: "300px", width: "100%" }}  
             >
               <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
