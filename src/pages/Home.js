@@ -51,13 +51,18 @@ function Home() {
       >
         <div className="hero-content">
           <h1>
-            Book Verified Pandit <br />
-            <span>At Your Doorstep 🛕</span>
-          </h1>
+  Book Verified Pandit <br />
+  <span>At Your Doorstep 🛕</span>
+</h1>
 
-          <p>
-            Transparent Pricing • OTP Secured • Instant Matching • No Hidden Charges
-          </p>
+<p className="mantra">
+  यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। <br />
+  अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ॥
+</p>
+
+<p className="hero-subtext">
+  Transparent Pricing • OTP Secured • Instant Matching • No Hidden Charges
+</p>
 
           <button className="cta-button" onClick={handleBookNow}>
             Book Now

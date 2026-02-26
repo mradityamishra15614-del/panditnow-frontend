@@ -1,27 +1,54 @@
+/* Hide by default */
+.bottom-nav {
+  display: none;
+}
+
+/* Show only on mobile */
 @media (max-width: 768px) {
   .bottom-nav {
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
-    background: white;
+    background: #ffffff;
     display: flex;
     justify-content: space-around;
-    padding: 8px 0;
-    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+    align-items: center;
+    height: 65px;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.08);
+    border-top: 1px solid #eee;
     z-index: 1000;
   }
 
-  .bottom-nav a {
-    text-decoration: none;
+  .bottom-nav div {
+    flex: 1;
+    text-align: center;
+    font-size: 13px;
     color: #555;
-    font-size: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.2s ease;
   }
 
-  .bottom-nav a.active {
-    color: #ff8c00;
-    font-weight: bold;
+  .bottom-nav div span {
+    font-size: 11px;
+    margin-top: 3px;
+  }
+
+  .bottom-nav div.active {
+    color: #f97316;
+    font-weight: 600;
+  }
+
+  .bottom-nav div:hover {
+    color: #f97316;
+  }
+
+  .disabled {
+    opacity: 0.4;
+    pointer-events: none;
   }
 }
