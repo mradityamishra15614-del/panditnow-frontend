@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import axios from "../api/axiosInstance";
 import { useNavigate } from "react-router-dom";
 import { MapContainer, TileLayer, Marker, useMapEvents } from "react-leaflet";
 import L from "leaflet";
@@ -32,7 +33,7 @@ function Booking() {
   const navigate = useNavigate();
 
   const [city, setCity] = useState("");
-  const [pujaType, setPujaType] = useState("Griha Pravesh");
+  const [pujaType, setPujaType] = useState("");
   const [bookingDate, setBookingDate] = useState("");
   const [bookingTime, setBookingTime] = useState("");
   const [address, setAddress] = useState("");
@@ -40,6 +41,22 @@ function Booking() {
   const [latitude, setLatitude] = useState(null);
   const [longitude, setLongitude] = useState(null);
   const [loadingLocation, setLoadingLocation] = useState(false);
+
+  const [pujas, setPujas] = useState([]);
+
+useEffect(() => {
+  const fetchPujas = async () => {
+    try {
+      const res = await axios.get("/api/pujas");
+      setPujas(res.data);
+    } catch (error) {
+      console.error("Failed to load pujas", error);
+    }
+  };
+
+  fetchPujas();
+}, []);
+
 
   const defaultCenter = [25.5941, 85.1376];
 
@@ -102,15 +119,18 @@ function Booking() {
           />
 
           <select
-            value={pujaType}
-            onChange={(e) => setPujaType(e.target.value)}
-          >
-            <option>Griha Pravesh</option>
-            <option>Satyanarayan Puja</option>
-            <option>Vivah Puja</option>
-            <option>Havan</option>
-            <option>Shradh</option>
-          </select>
+  value={pujaType}
+  required
+  onChange={(e) => setPujaType(e.target.value)}
+>
+  <option value="">Select Puja</option>
+
+  {pujas.map((puja) => (
+    <option key={puja._id} value={puja.name}>
+      {puja.name} (₹{puja.fixedPrice})
+    </option>
+  ))}
+</select>
 
           <input
             type="date"
