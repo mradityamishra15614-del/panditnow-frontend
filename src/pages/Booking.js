@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "../api/axiosInstance";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { MapContainer, TileLayer, Marker, useMapEvents } from "react-leaflet";
 import L from "leaflet";
 import "./Booking.css";
@@ -31,6 +31,7 @@ function LocationMarker({ setLatitude, setLongitude, latitude, longitude }) {
 
 function Booking() {
   const navigate = useNavigate();
+  const location = useLocation();
 
   const [city, setCity] = useState("");
   const [pujaType, setPujaType] = useState("");
@@ -57,7 +58,14 @@ useEffect(() => {
   fetchPujas();
 }, []);
 
+useEffect(() => {
+  const params = new URLSearchParams(location.search);
+  const pujaFromUrl = params.get("puja");
 
+  if (pujaFromUrl) {
+    setPujaType(pujaFromUrl);
+  }
+}, [location.search]);
   const defaultCenter = [25.5941, 85.1376];
 
   // 📍 Use My Location

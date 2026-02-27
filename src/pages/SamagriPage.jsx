@@ -56,6 +56,21 @@ const SamagriPage = () => {
       {samagri ? (
         <>
           <h2>{samagri.puja} Samagri List</h2>
+          <div style={{ marginBottom: "20px" }}>
+  <a
+    href={`/booking?puja=${encodeURIComponent(samagri.puja)}`}
+    style={{
+      backgroundColor: "#ff9800",
+      color: "white",
+      padding: "10px 20px",
+      textDecoration: "none",
+      borderRadius: "5px",
+      fontWeight: "bold",
+    }}
+  >
+    Book {samagri.puja} Now
+  </a>
+</div>
 
           <div style={{ margin: "20px 0" }}>
             <button onClick={() => setLanguage("hindi")}>Hindi</button>
