@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "../api/axiosInstance";
+import { Helmet } from "react-helmet-async"; // ✅ Added for SEO
 
 const SamagriPage = () => {
   const { slug } = useParams();
@@ -39,6 +40,13 @@ const SamagriPage = () => {
     <div style={{ padding: "40px" }}>
       {samagri ? (
         <>
+          {/* ✅ Dynamic SEO Title */}
+          <Helmet>
+            <title>
+              {`${samagri.puja} Samagri List (2026) | Complete Checklist | PanditNow`}
+            </title>
+          </Helmet>
+
           <h2>{samagri.puja} Samagri List</h2>
 
           <div style={{ margin: "20px 0" }}>
