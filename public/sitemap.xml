@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.panditnow.in/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Core Pages -->
+  <url>
+    <loc>https://www.panditnow.in/booking</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.panditnow.in/samagri</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.panditnow.in/premium-pandits</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Samagri Pages -->
+  <url>
+    <loc>https://www.panditnow.in/samagri/lakshmi-puja</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.panditnow.in/samagri/satyanarayan-puja-katha</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.panditnow.in/samagri/rudrabhishek</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.panditnow.in/samagri/durga-saptashati-path</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.panditnow.in/samagri/vastu-puja</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.panditnow.in/samagri/griha-pravesh</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.panditnow.in/samagri/shradh</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Policy Pages -->
+  <url>
+    <loc>https://www.panditnow.in/privacy-policy</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.panditnow.in/terms-conditions</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.panditnow.in/cancellation-policy</loc>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
