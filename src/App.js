@@ -17,6 +17,7 @@ import PanditLogin from "./pages/PanditLogin";
 import PanditDashboard from "./pages/PanditDashboard";
 
 import Samagri from "./pages/Samagri";
+import SamagriPage from "./pages/SamagriPage";
 import PremiumPandits from "./pages/PremiumPandits";
 import SearchingPandit from "./pages/SearchingPandit";
 
@@ -67,8 +68,10 @@ function App() {
         <Route path="/terms-conditions" element={<Layout><TermsConditions /></Layout>} />
         <Route path="/cancellation-policy" element={<Layout><CancellationPolicy /></Layout>} />
 
-        {/* Fallback */}
-        <Route path="*" element={<Navigate to="/" replace />} />
+       <Route path="/samagri/:slug" element={<Layout><SamagriPage /></Layout>} />
+
+{/* Fallback */}
+<Route path="*" element={<Navigate to="/" replace />} />
 
       </Routes>
     </Router>
