@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "../api/axiosInstance";
-import { Helmet } from "react-helmet-async"; // ✅ Added for SEO
 
 const SamagriPage = () => {
   const { slug } = useParams();
@@ -19,6 +18,22 @@ const SamagriPage = () => {
         );
 
         setSamagri(res.data);
+
+        // ✅ Dynamic SEO Title
+        document.title = `${res.data.puja} Samagri List (2026) | Complete Checklist | PanditNow`;
+
+        // ✅ Dynamic Meta Description
+        const metaDescription = document.querySelector(
+          'meta[name="description"]'
+        );
+
+        if (metaDescription) {
+          metaDescription.setAttribute(
+            "content",
+            `Get complete ${res.data.puja} samagri list in Hindi & English. Download checklist and book verified pandit online at PanditNow.`
+          );
+        }
+
       } catch (error) {
         console.error("Error fetching samagri:", error);
         setSamagri(null);
@@ -40,13 +55,6 @@ const SamagriPage = () => {
     <div style={{ padding: "40px" }}>
       {samagri ? (
         <>
-          {/* ✅ Dynamic SEO Title */}
-          <Helmet>
-            <title>
-              {`${samagri.puja} Samagri List (2026) | Complete Checklist | PanditNow`}
-            </title>
-          </Helmet>
-
           <h2>{samagri.puja} Samagri List</h2>
 
           <div style={{ margin: "20px 0" }}>
