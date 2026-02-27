@@ -7,10 +7,14 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
         {/* Brand Section */}
-        <div>
-          <h3>PanditNow 🛕</h3>
-          <p>Book verified pandits at your doorstep.</p>
-        </div>
+          <div className="footer-brand">
+  <img 
+    src="/logo.png" 
+    alt="PanditNow Logo" 
+    className="footer-logo"
+  />
+  <p>Book verified pandits at your doorstep.</p>
+</div>
 
         {/* Quick Links */}
         <div>

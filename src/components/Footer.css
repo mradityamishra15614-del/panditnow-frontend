@@ -31,3 +31,9 @@
   font-size: 13px;
   color: #aaa;
 }
+.footer-logo {
+  height: 60px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
+}

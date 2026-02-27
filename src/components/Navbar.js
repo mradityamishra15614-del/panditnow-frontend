@@ -21,9 +21,13 @@ function Navbar() {
       <div className="navbar-inner">
 
         {/* LOGO */}
-        <Link to="/" className="logo">
-          PanditNow 🛕
-        </Link>
+        <Link to="/" className="logo-link">
+  <img 
+  src="/logo.png" 
+  alt="PanditNow Logo" 
+  className="brand-logo"
+/>
+</Link>
 
         {/* DESKTOP MENU */}
         <div className="desktop-menu">
@@ -121,12 +125,11 @@ function Navbar() {
           align-items: center;
         }
 
-        .logo {
-          font-size: 22px;
-          font-weight: bold;
-          color: orange;
-          text-decoration: none;
-        }
+       .brand-logo {
+  height: 55px;
+  width: auto;
+  object-fit: contain;
+}
 
         .desktop-menu {
           display: flex;
