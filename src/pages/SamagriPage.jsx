@@ -7,7 +7,7 @@ import html2canvas from "html2canvas";
 const SamagriPage = () => {
   const { slug } = useParams();
   const [samagri, setSamagri] = useState(null);
-  const [language, setLanguage] = useState("hindi");
+  const [language] = useState("hindi");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
