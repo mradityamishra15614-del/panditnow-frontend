@@ -50,10 +50,16 @@ function Home() {
       
       >
         <div className="hero-content">
-          <h1>
-  Book Verified Pandit <br />
-  <span>At Your Doorstep 🛕</span>
+         <h1>
+  Book Verified Pandit at Home <br />
+  <span>Now Available in Patna 🛕</span>
 </h1>
+<p>Currently Serving Patna | More Cities Coming Soon</p>
+
+<p style={{ marginTop: "10px", fontWeight: "bold", color: "#ff5722" }}>
+  Same Day Puja Booking Available in Patna
+</p>
+
 
 <p className="mantra">
   यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। <br />
@@ -201,7 +207,7 @@ function Home() {
       {/* ================= FINAL CTA ================= */}
       <section className="final-cta">
         <div className="section-inner">
-          <h2>Ready to Book Your Puja?</h2>
+          <h2>Ready to Book a Verified Pandit in Patna?</h2>
 
           <button className="cta-button" onClick={handleBookNow}>
             Book Now
