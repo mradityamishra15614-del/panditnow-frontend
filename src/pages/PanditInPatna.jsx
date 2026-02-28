@@ -105,7 +105,40 @@ const PanditInPatna = () => {
 
       <h3>Is same day pandit booking available?</h3>
       <p>Yes, same day booking is available based on pandit availability in Patna.</p>
+{/* Areas We Serve */}
+<h2 style={{ marginTop: "50px" }}>Areas We Serve in Patna</h2>
+<p>
+We provide verified pandit services across all major locations in Patna including:
+Kankarbagh, Boring Road, Rajendra Nagar, Danapur, Patliputra Colony,
+Bailey Road, Ashiana Nagar, Phulwari Sharif and surrounding areas.
+</p>
 
+{/* Transparent Pricing Section */}
+<h2 style={{ marginTop: "50px" }}>Transparent Pandit Pricing in Patna</h2>
+<p>
+PanditNow follows fixed and transparent pricing for all pujas.
+There are no hidden charges. You can see complete pricing details
+before confirming your booking. Payment is secure and structured.
+</p>
+
+{/* Same Day Section */}
+<h2 style={{ marginTop: "50px" }}>Same Day Pandit Booking Available</h2>
+<p>
+Need urgent puja services in Patna? Our instant matching system
+connects you with the nearest available verified pandit.
+Same day booking is available based on availability.
+</p>
+
+{/* How It Works Detailed */}
+<h2 style={{ marginTop: "50px" }}>How PanditNow Works in Patna</h2>
+<ol style={{ lineHeight: "2", fontSize: "16px" }}>
+<li>Select your puja type</li>
+<li>Choose date and time</li>
+<li>Enter your location in Patna</li>
+<li>Get matched with a verified pandit</li>
+<li>OTP secure arrival confirmation</li>
+<li>Complete puja peacefully</li>
+</ol>
       {/* Final CTA */}
       <div style={{ marginTop: "50px", textAlign: "center" }}>
         <Link
