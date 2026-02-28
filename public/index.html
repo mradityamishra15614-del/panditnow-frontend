@@ -3,25 +3,45 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <!-- ✅ Added extra favicon support -->
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
 
-    <!-- ✅ Updated SEO Description -->
+    <!-- ✅ Updated SEO Description (Patna Focused) -->
     <meta
       name="description"
-      content="PanditNow - Book verified pandits for puja at home. View complete puja samagri lists in Hindi & English and download checklist online."
+      content="Book verified pandit in Patna for Griha Pravesh, Satyanarayan Katha, Lakshmi Puja and more. Same day puja booking available at transparent pricing with PanditNow."
     />
 
-    <!-- ✅ Open Graph Meta -->
-    <meta property="og:title" content="PanditNow | Book Verified Pandits for Puja at Home" />
-    <meta property="og:description" content="Book trusted pandits near you and access complete puja samagri lists online." />
+    <!-- ✅ Keywords (Helps basic SEO understanding) -->
+    <meta
+      name="keywords"
+      content="Pandit in Patna, Book Pandit online Patna, Griha Pravesh Pandit Patna, Lakshmi Puja Pandit, Satyanarayan Katha Patna, Puja booking Patna"
+    />
+
+    <meta name="author" content="PanditNow" />
+
+    <!-- ✅ Open Graph Meta (WhatsApp & Social Preview) -->
+    <meta property="og:title" content="Book Verified Pandit in Patna | Same Day Puja Booking | PanditNow" />
+    <meta property="og:description" content="Same day puja booking in Patna. Trusted and verified pandits at transparent pricing." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.panditnow.in" />
-    <meta property="og:image" content="https://www.panditnow.in/logo192.png" />
+    <meta property="og:image" content="https://www.panditnow.in/logo.png" />
+
+    <!-- ✅ Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Book Verified Pandit in Patna | PanditNow" />
+    <meta name="twitter:description" content="Book trusted pandits near you in Patna. Same day puja service available." />
+    <meta name="twitter:image" content="https://www.panditnow.in/logo.png" />
 
     <!-- ✅ Canonical -->
     <link rel="canonical" href="https://www.panditnow.in/" />
 
+    <!-- ✅ Apple Icon -->
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
     <!--
@@ -40,8 +60,35 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
 
-    <!-- ✅ Updated Title -->
-    <title>PanditNow | Book Verified Pandits for Puja at Home</title>
+    <!-- ✅ Structured Data (LocalBusiness Schema for Patna Ranking) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "PanditNow",
+        "url": "https://www.panditnow.in",
+        "logo": "https://www.panditnow.in/logo.png",
+        "image": "https://www.panditnow.in/logo.png",
+        "description": "Book verified pandits in Patna for puja at home with transparent pricing and same day service.",
+        "areaServed": {
+          "@type": "City",
+          "name": "Patna"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Patna",
+          "addressCountry": "IN"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer support",
+          "email": "support@panditnow.in"
+        }
+      }
+    </script>
+
+    <!-- ✅ Updated Title (Patna Positioning) -->
+    <title>Book Verified Pandit in Patna | Same Day Puja Booking | PanditNow</title>
   </head>
 
   <body>
