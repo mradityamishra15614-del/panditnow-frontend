@@ -26,6 +26,7 @@ import AdminLogin from "./pages/AdminLogin";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions";
 import CancellationPolicy from "./pages/CancellationPolicy";
+import PanditInPatna from "./pages/PanditInPatna";
 
 // Layout with Navbar + Footer + BottomNav
 const Layout = ({ children }) => (
@@ -69,6 +70,7 @@ function App() {
         <Route path="/cancellation-policy" element={<Layout><CancellationPolicy /></Layout>} />
 
        <Route path="/samagri/:slug" element={<Layout><SamagriPage /></Layout>} />
+       <Route path="/pandit-in-patna" element={<PanditInPatna />} />
 
 {/* Fallback */}
 <Route path="*" element={<Navigate to="/" replace />} />
