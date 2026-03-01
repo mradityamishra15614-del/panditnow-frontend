@@ -83,12 +83,12 @@ function PanditDashboard() {
     }
   }, [pandit?._id, fetchBookings]);
 // ===============================
-// AUTO REFRESH BOOKINGS (Every 5 sec)
+// AUTO REFRESH BOOKINGS (Every 1 min)
 // ===============================
 useEffect(() => {
   const interval = setInterval(() => {
     fetchBookings();
-  }, 5000);
+  }, 60000);
 
   return () => clearInterval(interval);
 }, [fetchBookings]);
