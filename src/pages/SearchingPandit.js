@@ -16,7 +16,9 @@ function SearchingPandit() {
   const [distance, setDistance] = useState(null);
   const [agreeCancel, setAgreeCancel] = useState(false);
 const [agreeSafety, setAgreeSafety] = useState(false);
-
+useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
   useEffect(() => {
     if (!bookingData) {
       navigate("/");
@@ -114,7 +116,6 @@ const [agreeSafety, setAgreeSafety] = useState(false);
 
         latitude: bookingData.latitude,
         longitude: bookingData.longitude,
-        fixedPrice: 1200,
       });
 
       alert("Booking Confirmed Successfully ✅");
@@ -227,7 +228,18 @@ const [agreeSafety, setAgreeSafety] = useState(false);
               </p>
             )}
 
-            <h3 className="price">Fixed Price: ₹1200</h3>
+           <h3 className="price">
+  Fixed Price: ₹{bookingData?.fixedPrice ?? "Calculating..."}
+</h3>
+<p
+  style={{
+    fontSize: "13px",
+    color: "gray",
+    marginTop: "5px"
+  }}
+>
+  💰 Pay only after pandit arrives. No extra charges.
+</p>
             <div style={{ marginTop: "15px", textAlign: "left" }}>
   <label style={{ display: "block", marginBottom: "8px" }}>
     <input

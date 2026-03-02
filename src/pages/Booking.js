@@ -98,16 +98,23 @@ useEffect(() => {
       alert("Please select location on map 📍");
       return;
     }
-
+const selectedPuja = pujas.find(
+  (p) => p.name.trim().toLowerCase() === pujaType.trim().toLowerCase()
+);
+if (!selectedPuja) {
+  alert("Invalid puja selected ❌");
+  return;
+}
     navigate("/searching", {
       state: {
-        city,
+         city: city.trim().toLowerCase(),
         pujaType,
         bookingDate,
         bookingTime,
         address,
         latitude,
         longitude,
+         fixedPrice: selectedPuja.fixedPrice, // correct
       },
     });
   };
@@ -141,11 +148,12 @@ useEffect(() => {
 </select>
 
           <input
-            type="date"
-            value={bookingDate}
-            required
-            onChange={(e) => setBookingDate(e.target.value)}
-          />
+  type="date"
+  value={bookingDate}
+  required
+  min={new Date().toISOString().split("T")[0]}
+  onChange={(e) => setBookingDate(e.target.value)}
+/>
 
           <input
             type="time"
