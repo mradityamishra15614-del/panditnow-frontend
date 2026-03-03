@@ -90,22 +90,38 @@ function Home() {
           <h2>How PanditNow Works</h2>
 
           <div className="how-grid">
-            <div className="how-card">
+            <div 
+  className="how-card"
+  onClick={() => navigate("/how-enter-details")}
+  style={{ cursor: "pointer" }}
+>
               <h3>1️⃣ Enter Details</h3>
               <p>Choose puja type, date, time and location.</p>
             </div>
 
-            <div className="how-card">
+            <div 
+  className="how-card"
+  onClick={() => navigate("/how-matching-works")}
+  style={{ cursor: "pointer" }}
+>
               <h3>2️⃣ Instant Matching</h3>
               <p>Nearest verified pandit gets notified instantly.</p>
             </div>
 
-            <div className="how-card">
+            <div 
+  className="how-card"
+  onClick={() => navigate("/how-otp-works")}
+  style={{ cursor: "pointer" }}
+>
               <h3>3️⃣ OTP Secure Start</h3>
               <p>Puja begins only after secure OTP verification.</p>
             </div>
 
-            <div className="how-card">
+            <div 
+  className="how-card"
+  onClick={() => navigate("/how-completion-works")}
+  style={{ cursor: "pointer" }}
+>
               <h3>4️⃣ Puja Completed</h3>
               <p>Rate your pandit & enjoy peaceful experience.</p>
             </div>

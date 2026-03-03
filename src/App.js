@@ -30,6 +30,10 @@ import TermsConditions from "./pages/TermsConditions";
 import CancellationPolicy from "./pages/CancellationPolicy";
 import PanditInPatna from "./pages/PanditInPatna";
 import PanditNearMe from "./pages/PanditNearMe";
+import HowEnterDetails from "./pages/HowEnterDetails";
+import HowMatchingWorks from "./pages/HowMatchingWorks";
+import HowOtpWorks from "./pages/HowOtpWorks";
+import HowCompletionWorks from "./pages/HowCompletionWorks";
 
 // Layout with Navbar + Footer + BottomNav
 const Layout = ({ children }) => (
@@ -87,10 +91,14 @@ function App() {
 
        <Route path="/samagri/:slug" element={<Layout><SamagriPage /></Layout>} />
        <Route path="/pandit-in-patna" element={<PanditInPatna />} />
-<Route path="/pandit-near-me" element={<PanditNearMe />} />
+ <Route path="/pandit-near-me" element={<PanditNearMe />} />
+
+<Route path="/how-enter-details" element={<Layout><HowEnterDetails /></Layout>} />
+<Route path="/how-matching-works" element={<Layout><HowMatchingWorks /></Layout>} />
+<Route path="/how-otp-works" element={<Layout><HowOtpWorks /></Layout>} />
+<Route path="/how-completion-works" element={<Layout><HowCompletionWorks /></Layout>} />
 {/* Fallback */}
 <Route path="*" element={<Navigate to="/" replace />} />
-
       </Routes>
     </Router>
   );
