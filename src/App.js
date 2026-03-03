@@ -1,4 +1,6 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from "react-router-dom";
+import { useEffect } from "react";
+import ReactGA from "react-ga4";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -38,11 +40,24 @@ const Layout = ({ children }) => (
     <BottomNav /> {/* ✅ Added here */}
   </>
 );
+function AnalyticsTracker() {
+  const location = useLocation();
 
+  useEffect(() => {
+    ReactGA.initialize("G-YXX1MT0ZSC");
+  }, []);
+
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: location.pathname });
+  }, [location]);
+
+  return null;
+}
 function App() {
   return (
-    <Router>
-      <Routes>
+   <Router>
+  <AnalyticsTracker />
+  <Routes>
 
         {/* Public Pages */}
         <Route path="/" element={<Layout><Home /></Layout>} />
