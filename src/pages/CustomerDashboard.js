@@ -61,12 +61,22 @@ const [comment, setComment] = useState("");
   }, [customer?._id, token]);
 
   // Fetch once when customer exists
-  useEffect(() => {
-    if (customer?._id) {
-      fetchBookings();
-    }
-  }, [customer?._id, fetchBookings]);
+  // Auto refresh bookings every 1 min
+useEffect(() => {
+  if (!customer?._id) return;
 
+  // First fetch immediately
+  fetchBookings();
+
+  // Set interval
+  const interval = setInterval(() => {
+    fetchBookings();
+  }, 60000); // 1 min
+
+  // Cleanup on unmount
+  return () => clearInterval(interval);
+
+}, [customer?._id, fetchBookings]);
   // Logout
   const handleLogout = () => {
     logoutUser();
