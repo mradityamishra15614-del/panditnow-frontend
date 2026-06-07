@@ -227,6 +227,47 @@ PanditNow makes it easy to book experienced pandits for Satyanarayan Katha in Pa
   pandits who guide both families through every step of the wedding rituals and
   ceremonies.
 </p>
+{/* Puja Samagri Links */}
+<h2 style={{ marginTop: "50px" }}>
+Popular Puja Samagri Lists
+</h2>
+
+<p>
+Need samagri for your puja? Download complete puja material checklists
+before booking a pandit.
+</p>
+
+<ul style={{ lineHeight: "2", fontSize: "16px" }}>
+  <li>
+    <Link to="/samagri/rudrabhishek">
+      View Complete Rudrabhishek Samagri List
+    </Link>
+  </li>
+
+  <li>
+    <Link to="/samagri/griha-pravesh">
+      View Complete Griha Pravesh Samagri List
+    </Link>
+  </li>
+
+  <li>
+    <Link to="/samagri/lakshmi-puja">
+      View Complete Lakshmi Puja Samagri List
+    </Link>
+  </li>
+
+  <li>
+    <Link to="/samagri/durga-saptashati-path">
+      View Complete Durga Saptashati Path Samagri List
+    </Link>
+  </li>
+
+  <li>
+    <Link to="/samagri/vastu-puja">
+      View Complete Vastu Puja Samagri List
+    </Link>
+  </li>
+</ul>
       {/* Why Choose Us */}
       <h2 style={{ marginTop: "50px" }}>Why Choose PanditNow in Patna?</h2>
       <ul style={{ lineHeight: "2", fontSize: "16px" }}>
