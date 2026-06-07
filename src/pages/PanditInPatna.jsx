@@ -100,6 +100,13 @@ The ceremony generally includes Ganesh Puja, Kalash Sthapana, Vastu Shanti, Hava
 <p style={{ lineHeight: "1.8", fontSize: "16px" }}>
 PanditNow helps families book verified pandits for Griha Pravesh Puja in Patna. Whether you live in Kankarbagh, Boring Road, Danapur, Rajendra Nagar, Patliputra Colony, or nearby areas, we help connect you with experienced pandits for a smooth and spiritually fulfilling ceremony.
 </p>
+<p>
+Need samagri for Griha Pravesh?
+{" "}
+<Link to="/samagri/griha-pravesh">
+View Complete Griha Pravesh Samagri List
+</Link>
+</p>
 
 <h2 style={{ marginTop: "50px" }}>
 Satyanarayan Katha in Patna
@@ -115,6 +122,13 @@ The ceremony includes Ganesh Puja, Kalash Sthapana, Satyanarayan Katha recitatio
 
 <p style={{ lineHeight: "1.8", fontSize: "16px" }}>
 PanditNow makes it easy to book experienced pandits for Satyanarayan Katha in Patna. Our verified pandits perform the complete ritual according to Vedic traditions and help devotees conduct the puja conveniently at home.
+</p>
+<p>
+Need samagri for Satyanarayan Katha?
+{" "}
+<Link to="/samagri/satyanarayan-puja-katha">
+View Complete Satyanarayan Katha Samagri List
+</Link>
 </p>
 {/* Additional Puja Information */}
 
@@ -137,6 +151,13 @@ PanditNow makes it easy to book experienced pandits for Satyanarayan Katha in Pa
   blessings. PanditNow helps families book experienced and verified pandits for
   Rudrabhishek Puja in Patna with a convenient online booking process.
 </p>
+<p>
+Need samagri for Rudrabhishek?
+{" "}
+<Link to="/samagri/rudrabhishek">
+View Complete Rudrabhishek Samagri List
+</Link>
+</p>
 
 <h2 style={{ marginTop: "50px" }}>
   Lakshmi Puja in Patna
@@ -156,6 +177,13 @@ PanditNow makes it easy to book experienced pandits for Satyanarayan Katha in Pa
   devotees with verified pandits who conduct Lakshmi Puja according to traditional
   Vedic practices and family customs.
 </p>
+<p>
+Need samagri for Lakshmi Puja?
+{" "}
+<Link to="/samagri/lakshmi-puja">
+View Complete Lakshmi Puja Samagri List
+</Link>
+</p>
 
 <h2 style={{ marginTop: "50px" }}>
   Durga Saptashati Path in Patna
@@ -174,7 +202,13 @@ PanditNow makes it easy to book experienced pandits for Satyanarayan Katha in Pa
   knowledgeable pandits for Durga Saptashati Path and related rituals at their
   homes.
 </p>
-
+<p>
+Need samagri for Durga Saptashati Path?
+{" "}
+<Link to="/samagri/durga-saptashati-path">
+View Complete Durga Saptashati Path Samagri List
+</Link>
+</p>
 <h2 style={{ marginTop: "50px" }}>
   Mundan Sanskar in Patna
 </h2>
