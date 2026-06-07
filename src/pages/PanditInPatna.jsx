@@ -116,6 +116,117 @@ The ceremony includes Ganesh Puja, Kalash Sthapana, Satyanarayan Katha recitatio
 <p style={{ lineHeight: "1.8", fontSize: "16px" }}>
 PanditNow makes it easy to book experienced pandits for Satyanarayan Katha in Patna. Our verified pandits perform the complete ritual according to Vedic traditions and help devotees conduct the puja conveniently at home.
 </p>
+{/* Additional Puja Information */}
+
+<h2 style={{ marginTop: "50px" }}>
+  Rudrabhishek Puja in Patna
+</h2>
+
+<p style={{ lineHeight: "1.8", fontSize: "16px" }}>
+  Rudrabhishek is one of the most powerful forms of worship dedicated to Lord Shiva.
+  Devotees perform this sacred ritual to seek peace, spiritual growth, protection
+  from negative energies, and relief from obstacles in life. Families in Patna
+  often organize Rudrabhishek during Shravan month, Mahashivratri, birthdays,
+  anniversaries, and other important occasions.
+</p>
+
+<p style={{ lineHeight: "1.8", fontSize: "16px" }}>
+  During the puja, Lord Shiva is worshipped with holy water, milk, honey, curd,
+  ghee, bilva leaves, flowers, and Vedic mantras. Many devotees believe that
+  regular Rudrabhishek brings positivity, mental peace, family harmony, and divine
+  blessings. PanditNow helps families book experienced and verified pandits for
+  Rudrabhishek Puja in Patna with a convenient online booking process.
+</p>
+
+<h2 style={{ marginTop: "50px" }}>
+  Lakshmi Puja in Patna
+</h2>
+
+<p style={{ lineHeight: "1.8", fontSize: "16px" }}>
+  Lakshmi Puja is performed to seek the blessings of Goddess Lakshmi, the deity of
+  wealth, prosperity, and abundance. This puja is especially popular during Diwali,
+  business inaugurations, housewarming ceremonies, and special family occasions.
+  Families across Patna perform Lakshmi Puja to invite prosperity and positive
+  energy into their homes and workplaces.
+</p>
+
+<p style={{ lineHeight: "1.8", fontSize: "16px" }}>
+  The ritual includes worship of Goddess Lakshmi and Lord Ganesha through
+  offerings, prayers, lamps, flowers, and sacred mantras. PanditNow connects
+  devotees with verified pandits who conduct Lakshmi Puja according to traditional
+  Vedic practices and family customs.
+</p>
+
+<h2 style={{ marginTop: "50px" }}>
+  Durga Saptashati Path in Patna
+</h2>
+
+<p style={{ lineHeight: "1.8", fontSize: "16px" }}>
+  Durga Saptashati Path is a sacred recitation dedicated to Goddess Durga. The
+  reading of the holy verses is believed to provide protection, strength, courage,
+  and spiritual upliftment. Many families in Patna organize Durga Saptashati Path
+  during Navratri, special family occasions, and challenging phases of life.
+</p>
+
+<p style={{ lineHeight: "1.8", fontSize: "16px" }}>
+  Devotees believe that this powerful path helps remove obstacles, reduce
+  negativity, and bring divine blessings. Through PanditNow, families can book
+  knowledgeable pandits for Durga Saptashati Path and related rituals at their
+  homes.
+</p>
+
+<h2 style={{ marginTop: "50px" }}>
+  Mundan Sanskar in Patna
+</h2>
+
+<p style={{ lineHeight: "1.8", fontSize: "16px" }}>
+  Mundan Sanskar is an important Hindu ceremony performed during a child's early
+  years. It marks the child's first haircut and symbolizes purification, spiritual
+  growth, and good health. Many families in Patna celebrate Mundan Sanskar at
+  temples, homes, and sacred locations with family and relatives.
+</p>
+
+<p style={{ lineHeight: "1.8", fontSize: "16px" }}>
+  The ritual is accompanied by prayers, blessings, and Vedic mantras. PanditNow
+  helps parents connect with experienced pandits who conduct Mundan Sanskar
+  according to traditional customs and family preferences.
+</p>
+
+<h2 style={{ marginTop: "50px" }}>
+  Namkaran Sanskar in Patna
+</h2>
+
+<p style={{ lineHeight: "1.8", fontSize: "16px" }}>
+  Namkaran Sanskar is the traditional Hindu naming ceremony performed for newborn
+  children. This sacred ritual officially introduces the child to family and
+  society and is usually conducted on an auspicious date selected according to
+  Hindu traditions and astrology.
+</p>
+
+<p style={{ lineHeight: "1.8", fontSize: "16px" }}>
+  During the ceremony, prayers and blessings are offered for the child's health,
+  happiness, and future success. PanditNow provides access to verified pandits in
+  Patna who help families perform Namkaran Sanskar according to Vedic customs.
+</p>
+
+<h2 style={{ marginTop: "50px" }}>
+  Vivah Sanskar in Patna
+</h2>
+
+<p style={{ lineHeight: "1.8", fontSize: "16px" }}>
+  Vivah Sanskar, or Hindu wedding ceremony, is one of the most important rites in
+  Hindu culture. The ceremony includes sacred rituals such as Ganesh Puja,
+  Kanyadaan, Havan, Saptapadi, and Sindoor Daan. Families in Patna often seek
+  experienced pandits to ensure wedding ceremonies are conducted according to
+  Vedic traditions.
+</p>
+
+<p style={{ lineHeight: "1.8", fontSize: "16px" }}>
+  PanditNow helps couples and families book verified wedding pandits for
+  traditional Hindu marriages. Our platform connects users with experienced
+  pandits who guide both families through every step of the wedding rituals and
+  ceremonies.
+</p>
       {/* Why Choose Us */}
       <h2 style={{ marginTop: "50px" }}>Why Choose PanditNow in Patna?</h2>
       <ul style={{ lineHeight: "2", fontSize: "16px" }}>
