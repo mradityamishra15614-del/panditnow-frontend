@@ -4,6 +4,8 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { MapContainer, TileLayer, Marker, useMapEvents } from "react-leaflet";
 import L from "leaflet";
 import "./Booking.css";
+import "@react-google-maps/api
+"
 
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({

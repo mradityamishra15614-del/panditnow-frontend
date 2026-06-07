@@ -83,7 +83,39 @@ const PanditInPatna = () => {
         <li>Vastu Puja</li>
         <li>Shradh Puja</li>
       </ul>
+         {/* Detailed Puja Information */}
 
+<h2 style={{ marginTop: "50px" }}>
+Griha Pravesh Puja in Patna
+</h2>
+
+<p style={{ lineHeight: "1.8", fontSize: "16px" }}>
+Griha Pravesh Puja is one of the most important Hindu ceremonies performed before entering a new home. This sacred ritual is conducted to seek the blessings of Lord Ganesha, Goddess Lakshmi, and family deities for prosperity, peace, and protection from negative energies. Many families in Patna perform Griha Pravesh Puja after purchasing a new house, shifting to a new apartment, or moving into a renovated property.
+</p>
+
+<p style={{ lineHeight: "1.8", fontSize: "16px" }}>
+The ceremony generally includes Ganesh Puja, Kalash Sthapana, Vastu Shanti, Havan, and other rituals according to family traditions. Performing Griha Pravesh on an auspicious muhurat is considered highly beneficial for happiness and success in the new home.
+</p>
+
+<p style={{ lineHeight: "1.8", fontSize: "16px" }}>
+PanditNow helps families book verified pandits for Griha Pravesh Puja in Patna. Whether you live in Kankarbagh, Boring Road, Danapur, Rajendra Nagar, Patliputra Colony, or nearby areas, we help connect you with experienced pandits for a smooth and spiritually fulfilling ceremony.
+</p>
+
+<h2 style={{ marginTop: "50px" }}>
+Satyanarayan Katha in Patna
+</h2>
+
+<p style={{ lineHeight: "1.8", fontSize: "16px" }}>
+Satyanarayan Katha is a highly respected Hindu ritual dedicated to Lord Vishnu. Families in Patna often organize this puja during housewarming ceremonies, birthdays, anniversaries, business inaugurations, and other important life events. The ritual is believed to bring prosperity, peace, success, and divine blessings.
+</p>
+
+<p style={{ lineHeight: "1.8", fontSize: "16px" }}>
+The ceremony includes Ganesh Puja, Kalash Sthapana, Satyanarayan Katha recitation, Panchamrit offerings, and Aarti. Devotees listen to the sacred story and seek Lord Vishnu’s blessings for family well-being and removal of obstacles.
+</p>
+
+<p style={{ lineHeight: "1.8", fontSize: "16px" }}>
+PanditNow makes it easy to book experienced pandits for Satyanarayan Katha in Patna. Our verified pandits perform the complete ritual according to Vedic traditions and help devotees conduct the puja conveniently at home.
+</p>
       {/* Why Choose Us */}
       <h2 style={{ marginTop: "50px" }}>Why Choose PanditNow in Patna?</h2>
       <ul style={{ lineHeight: "2", fontSize: "16px" }}>

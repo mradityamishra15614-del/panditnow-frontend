@@ -1,24 +1,4 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-
-function HowOtpWorks() {
-  const navigate = useNavigate();
-
-  return (
-    <div style={{ padding: "40px 20px", background: "#f9f9f9", minHeight: "100vh" }}>
-      <div
-        style={{
-          maxWidth: "900px",
-          margin: "auto",
-          background: "white",
-          padding: "30px",
-          borderRadius: "15px",
-          boxShadow: "0px 0px 15px rgba(0,0,0,0.1)",
-        }}
-      >
-        <h1 style={{ color: "orange", marginBottom: "20px" }}>
-          OTP Secure Puja Start System 🔐
-        </h1>
+C
 
         <p style={{ fontSize: "17px", lineHeight: "28px" }}>
           At PanditNow, your safety and transparency come first.
