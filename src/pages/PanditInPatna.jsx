@@ -255,7 +255,39 @@ We provide verified pandit services across all major locations in Patna includin
 Kankarbagh, Boring Road, Rajendra Nagar, Danapur, Patliputra Colony,
 Bailey Road, Ashiana Nagar, Phulwari Sharif and surrounding areas.
 </p>
+<h2 style={{ marginTop: "50px" }}>
+Popular Areas for Pandit Booking in Patna
+</h2>
 
+<h3>Kankarbagh</h3>
+<p>
+Kankarbagh is one of the largest residential areas in Patna where families regularly organize Griha Pravesh, Satyanarayan Katha, Rudrabhishek, Lakshmi Puja and other religious ceremonies. PanditNow helps residents of Kankarbagh connect with verified pandits through a simple online booking process.
+</p>
+
+<h3>Boring Road</h3>
+<p>
+Families living in Boring Road frequently book pandits for housewarming ceremonies, festival pujas and family rituals. PanditNow provides access to experienced pandits for various Hindu ceremonies in the Boring Road area.
+</p>
+
+<h3>Danapur</h3>
+<p>
+Danapur is a growing residential area where many families require trusted pandits for religious functions. PanditNow helps users book verified pandits for pujas, kathas and other traditional ceremonies.
+</p>
+
+<h3>Patliputra Colony</h3>
+<p>
+Residents of Patliputra Colony often organize religious events, family rituals and spiritual gatherings. PanditNow offers convenient booking options for experienced pandits serving the locality.
+</p>
+
+<h3>Ashiana Nagar</h3>
+<p>
+Ashiana Nagar is home to many families who celebrate Hindu traditions through regular pujas and religious ceremonies. PanditNow makes it easy to find verified pandits for different occasions.
+</p>
+
+<h3>Bailey Road</h3>
+<p>
+Families across Bailey Road can book experienced pandits for Griha Pravesh, Satyanarayan Katha, Rudrabhishek and other ceremonies through PanditNow's secure booking platform.
+</p>
 {/* Transparent Pricing Section */}
 <h2 style={{ marginTop: "50px" }}>Transparent Pandit Pricing in Patna</h2>
 <p>
